@@ -5,7 +5,7 @@
         {
             name: "Alime-Tinder",
             imgSrc: "images/tinder.png",
-            github: "https://github.com/siunhanvjp",
+            github: "https://github.com/siunhanvjp/alime-tinder",
             webUrl: "https://alime-tinder.web.app/",
             description: "Welcome to Alime-Tinder, where anime characters are ready for a swipe-right adventure!. Experience real conversations powered by GPT-3.5 or face the sting of rejection with each swipe. Get ready to explore a unique blend of anime, tech, and dating simulation!",
             logos: [
