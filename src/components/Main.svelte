@@ -20,11 +20,11 @@
             ]
         },
         {
-            name: "Parking Management",
+            name: "Smart Parking Management",
             imgSrc: "images/developing.jpg",
-            github: "",
+            github: "https://github.com/Huuduc2707/SAD_Project/tree/main/server",
             webUrl: "",
-            description: "Coming Soon...",
+            description: "In a group project, I took charge of the back-end to create a parking management system. This system enables managers to effortlessly monitor and control parking lots while providing a seamless booking service.",
             logos: [
                 {
                     logoName: "react",
@@ -34,10 +34,14 @@
                     logoName: "django",
                     logoSrc:"images/logos/django.svg"
                 },
+                {
+                    logoName: "django-ninja",
+                    logoSrc:"images/logos/logo-big.png"
+                },
             ]
         },
         {
-            name: "Ecommerce Website",
+            name: "Auction Website",
             imgSrc: "images/developing.jpg",
             github: "",
             webUrl: "",
@@ -82,7 +86,10 @@
             companyName: "Individual Systems Co.",
             jobTitle: "AI Engineer Intern",
             duration: "06/2023-08/2023",
-            responsibility: "Research, improve performance of Legal Chatbot",
+            details: [
+                "Collaborated with a team to develop a Law Chatbot, specializing in Vietnamese Law",
+                "Contributed to slightly boosting company performance, specifically addressing the long-tail distribution challenge.",
+            ],
             techs: [
                 {
                     logoName: "python",
@@ -160,8 +167,13 @@
                     <h3 class="text-l sm:text-xl md:text-2xl">
                         {work.jobTitle} ({work.duration})
                     </h3>
+                    {#each work.details as detail}
+                        <h3 class="text-s sm:text-l md:text-xl">
+                            {detail}
+                        </h3>
+                    {/each}
                     <div class="flex space-x-8">
-                        <h3 class="text-m sm:text-l md:text-xl">
+                        <h3 class="text-s sm:text-l md:text-xl">
                             Technology Used:
                         </h3>
                         {#each work.techs as tech}
