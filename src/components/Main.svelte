@@ -67,7 +67,7 @@
         {
             name: "a Computer Science Undergraduate",
             description:
-                "Hello there! I'm a fourth-year Computer Science Undergraduate at Ho Chi Minh University of Technology (Bach Khoa HCM), currently exploring the exciting realms of technology and innovation. With a GPA of 8.7/10, I proudly rank among the top 10% of my fellow students. Join me on this journey where academic excellence and a deep love for computer science converge!.",
+                "Hello there! I'm a fourth-year Computer Science Undergraduate at Ho Chi Minh University of Technology (Bach Khoa HCM), currently exploring the exciting realms of technology and innovation. With a GPA of 8.73/10, I proudly rank among the top 10% of my fellow students. Join me on this journey where academic excellence and a deep love for computer science converge!.",
         },
         {
             name: "passionate about backend engineering",
